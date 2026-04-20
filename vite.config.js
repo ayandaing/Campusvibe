@@ -1,0 +1,16 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    minify: 'esbuild',  // Using esbuild for minification
+    target: 'esnext',   // Targeting modern JavaScript
+    outDir: 'dist'      // Output directory for build
+  },
+  server: {
+    port: 3000,         // Server port
+    open: true,         // Automatically open the app in the browser on start
+  }
+});
