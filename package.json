@@ -1,0 +1,1 @@
+{\n  "name": "CampusLink",\n  "version": "1.0.0",\n  "description": "A project for Campus Linking.",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "author": "ayandaing",\n  "license": "ISC"\n}
